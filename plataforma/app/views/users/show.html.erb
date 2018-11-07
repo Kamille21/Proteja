@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<div class="field form-group ">
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+</div>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
